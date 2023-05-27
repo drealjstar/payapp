@@ -1,5 +1,254 @@
 .container-sm2 {
-    background-color: red;
     height: 110vh;
     width: 35%;
 }
+
+.wrapperCard1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 472px;
+    
+    margin-top: 175px;
+}
+
+.card1{
+    height: 472px;
+    width: 75%;
+    background-color: rgb(235, 243, 243);
+    border-radius: 10px;
+
+}
+
+.detailsCard1{
+    height: 140px;
+    width: 100%;
+    margin-top: 220px;
+}
+
+p{
+    font-size: small;
+}
+
+.appleLogoCover{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(2, 2, 80);
+    border-radius: 100%;
+    margin-top: 2px;
+}
+
+.apple{
+    display: flex;
+    justify-content: space-between;
+    width: 67px;
+    margin-right: 30px;
+    
+}
+
+.appleLogo{
+    color: white;
+    margin-bottom: 4px;
+    margin-right: 1.40px;
+    margin-left: 1px;
+    font-size: small;
+}
+
+.detail1,
+.detail2,
+.detail3,
+.detail4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1{
+    color: rgb(160, 158, 158);
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.p2{
+    color: rgb(2, 2, 80);
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+.p02{
+    color: rgb(2, 2, 80);
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.cut1,
+.cut2{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.lineAndCut{
+ display: flex;
+
+} 
+
+.line{
+    width: 260px;
+    border-style: dashed;
+    color: rgb(119, 117, 117);
+    
+}
+
+.cut1{
+    margin-left: -13px;
+}
+
+.cut2{
+    margin-right: -20px;
+}
+
+.p3{
+    color: rgb(160, 158, 158);
+    font-weight: 600;
+    padding-right: 130px;
+}
+
+.USD{
+    display: flex;
+    margin-left: 31px;
+    margin-top: -15px;
+
+}
+
+.USDPrice{
+    color: rgb(2, 2, 80);
+    
+}
+
+.USDPrice2{
+    color: rgb(2, 2, 80);
+    padding-top: 10px;
+}
+
+.USDTitle{
+    padding-top: 14px;
+    padding-left: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(141, 139, 139);
+}
+
+.ribbon{
+padding-left: 100px;
+margin-top: -10px;
+
+}
+
+
+
+ .wrapperCard2,
+.wrapperCard3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.wrapperCard3{
+    height: 390px;
+    
+}
+
+.card2{
+    height: 40px;
+    width: 65px;
+    background-color: rgb(0, 110, 255);
+    margin-top: -563px;
+    border-radius: 4px;
+}
+
+.card3{
+    height: 280px;
+    width: 210px;
+    background-color:white;
+    margin-top: -555px;
+    border-radius: 15px;
+    border: 1px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+} 
+
+
+.innerCard1{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.chip{
+font-size: 50px;
+margin-top: 20px;
+margin-left: -7px;
+}
+
+.wifi{
+    margin-top: 42px;
+    margin-right: -7px;
+    color: rgb(2, 2, 80);
+}
+
+.p4{
+    padding-top: 30px;
+    padding-right: 50px;
+    color: rgb(2, 2, 80);
+    font-weight: 400;
+}
+
+.innerCard2{
+    height: 160px;
+    width: 100%;
+    
+}
+
+.subInnerCard2{
+    display: flex;
+    margin-top: -6px;
+}
+
+.dot2{
+    margin-top: -4px;
+    padding-left: 30px;
+}
+
+.innerCardNumber{
+    padding-left: 20px;
+    
+}
+
+.subInnerCard3{
+    margin-top: 15px;
+    display: flex;
+}
+
+.date2{
+    padding-left: 30px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.master{
+    margin-top: -11px;
+    margin-left: 12px;
+}
+
+.masterText{
+    font-size: 7px;
+    font-weight: 600;
+    margin-left: 120px;
+    margin-top: -5px;
+}
+
+
+
