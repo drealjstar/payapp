@@ -1,14 +1,10 @@
 import React from "react";
 import "./firstpart.css";
 import { RiCopperCoinFill } from 'react-icons/ri';
-import { GrEdit } from 'react-icons/gr';
+import { MdOutlineEdit } from 'react-icons/md';
 import { IoMdCheckmarkCircle } from 'react-icons/io'
 import { CgMenuGridR } from 'react-icons/cg';
 import SecondPart from "./secondpart";
-
-
-
-
 
 function FirstPart() {
         return (
@@ -34,7 +30,7 @@ function FirstPart() {
                                                         <p className="digitText">Enter the 16-digit cɑrd number on the cɑrd</p>
                                                 </div>
                                                 <div className="edit">
-                                                        <h4 className="editIcon"><GrEdit /></h4>
+                                                        <h4 className="editIcon">< MdOutlineEdit /></h4>
                                                         <h6 className="editText">Edit</h6>
                                                 </div>
                                         </div>
@@ -47,7 +43,6 @@ function FirstPart() {
                                                 </div>
                                                 <div className="numberCover"><p className="cardNumber">2412  -  7512  -  3412  -  3456</p></div>
                                         </div>
-
                                         <div className="cvv">
                                                 <div className="cvvHeaderWrapper">
                                                         <h6 className="cvvHeader">CVV Number</h6>
@@ -58,7 +53,6 @@ function FirstPart() {
                                                         <h4 className="cvvIcon"><CgMenuGridR /></h4>
                                                 </div>
                                         </div>
-
                                         <div className="date">
                                                 <div className="dateHeaderWrapper">
                                                         <h6 className="dateHeader">Expiry dɑte </h6>
@@ -74,7 +68,6 @@ function FirstPart() {
                                                         </div>
                                                 </div>
                                         </div>
-
                                         <div className="password">
                                                 <div className="passwordHeaderWrapper">
                                                         <h6 className="passwordHeader">Pɑssword</h6>
@@ -85,19 +78,10 @@ function FirstPart() {
                                                         <h4 className="cvvIcon"><CgMenuGridR /></h4>
                                                 </div>
                                         </div>
-
                                         <div className="button">Pɑy Now</div>
                                 </div>
-
-
-
-                        <SecondPart />
-
-
+                                <SecondPart />
                         </div>
-
-
-
                 </div>
         )
 }
